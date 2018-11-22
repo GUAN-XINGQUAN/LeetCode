@@ -1,0 +1,45 @@
+Use recursion:
+
+when n = 1:
+	return 1
+	
+when n >= 2:
+	define a list equaling to case n - 1
+	initialize an empty string to store output
+	loop over each element in the list
+		if there are repeated numbers:
+			count the repeated times
+		else
+			string = string + count + current_item
+			count = 1
+			current_item = current element in this loop
+		if this is the end of list
+			string = string + count + current_item
+	return string
+	
+
+Example: when n = 5
+list = ['1', '2', '1', '1']
+count = 0
+string = ''
+current_item = list[0]
+loop over each element:
+------------------------------------
+first element:
+	list[0] = current_item ==> count = 1
+------------------------------------
+second element
+	list[1] != current_item ==> string = 11
+	count = 1
+	current_item = list[1] = 2
+------------------------------------
+third element
+	list[2] != current_item ==> string = 1112
+	count = 1
+	current_item = list[2] = 1
+------------------------------------
+fourth element
+	list[3] = current_item
+	count = 2
+This is end of list
+	string = 111221
