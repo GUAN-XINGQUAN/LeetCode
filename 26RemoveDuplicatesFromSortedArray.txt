@@ -1,0 +1,15 @@
+If list is empty
+	return 0
+index = 1  // index for each element of list
+starting = 1  // index to label the element that differs the previous one
+current elment = nums[0]  // element that differs from the previous one
+count = 1  // count the total number of non-repeated numbers
+
+while index is less than the length
+	if the current element differs from previous one
+		store it into nums[starting]
+		set current element as nums[index]
+		update starting
+		update count
+	update index
+return count
