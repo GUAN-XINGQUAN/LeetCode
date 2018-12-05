@@ -1,0 +1,8 @@
+initialize a list triangle to store final result
+loop over from 0 to number of rows:
+	initialize a list to store the current row
+	the first and last element are 1
+	loop over from second element to the last second element
+		each element is summation of adjacent elements in previous row
+	append current row to the list defined at very beginning.
+return the list
