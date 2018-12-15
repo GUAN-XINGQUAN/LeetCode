@@ -1,7 +1,0 @@
-Loop over each element of the list:
-	if current element equals to val, swap it with the last element. Reduce the list length by 1.
-	Otherwise, move to next element.
-return the number of elements that the algorithm moves.
-
-
-
