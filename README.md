@@ -1,3 +1,2 @@
-# Leetcode Problems Solutions using C++
+# Solutions for LeetCode Problems using C++
 # Just for fun!!!
-# Developed by GUAN.
