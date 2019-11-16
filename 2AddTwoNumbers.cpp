@@ -1,92 +1,75 @@
 #include <iostream>
-#include <list>
+
 using namespace std;
 
-// Definition for singly-linked list.
-struct ListNode {
+struct ListNode
+{
 	int val;
 	ListNode *next;
-	ListNode(int x) : val(x), next(nullptr) {}
- };
+	ListNode(int x) :val(x), next(NULL) {}  // Constructor
+};
 
-class Solution {
+class Solution
+{
 public:
-	ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
-		ListNode* res = new ListNode(0); // dummy node
-		ListNode* cur = res; // define a current pointer to loop over the node
-		int remainder = 0;  // the variable deal with remainder of greater than 10
+	ListNode *addTwoNumbers(ListNode* l1, ListNode *l2)
+	{
+		ListNode* tempResult = new ListNode(0); // dummy node
+		ListNode* curPtr = tempResult;  // current pointer
+		int digitInt = 0;
 		while (l1 != nullptr || l2 != nullptr)
 		{
 			int val1, val2;
 			if (l1 == nullptr)
 				val1 = 0;
 			else
+			{
 				val1 = l1->val;
+				l1 = l1->next;
+			}
 			if (l2 == nullptr)
 				val2 = 0;
 			else
+			{
 				val2 = l2->val;
-			int s = val1 + val2 + remainder;
-			ListNode* ptr = new ListNode(s % 10);
-			remainder = s / 10;
-			cur->next = ptr;
-			cur = cur->next;
-			if (l1 != nullptr)
-				l1 = l1->next;
-			if (l2 != nullptr)
 				l2 = l2->next;
+			}
+			int remainder = (val1 + val2 + digitInt) % 10;
+			digitInt = (val1 + val2 + digitInt) / 10;
+			
+			curPtr->next = new ListNode(remainder);
+			curPtr = curPtr->next;
 		}
-		if (remainder != 0)
-			cur->next = new ListNode(1);
-		ListNode* ans = res->next;
-		delete res;  // delete the dummy node to avoid memory leak
-		return ans;
+		if (digitInt != 0)
+			curPtr->next = new ListNode(1);
+		ListNode* result = tempResult->next;
+		delete tempResult;
+		return result;
 	}
 };
 
+
 int main()
 {
-	ListNode* root1 = new ListNode(2);
-	root1->next = new ListNode(4);
-	root1->next->next = new ListNode(3);
+	// First linked list
+	ListNode* l1 = new ListNode(2);
+	l1->next = new ListNode(4);
+	l1->next->next = new ListNode(3);
 
-	ListNode* root2 = new ListNode(5);
-	root2->next = new ListNode(6);
-	root2->next->next = new ListNode(4);
+	// Second linked list
+	ListNode* l2 = new ListNode(5);
+	l2->next = new ListNode(6);
+	l2->next->next = new ListNode(4);
 
+	// Call function
 	Solution sol;
+	ListNode* result = sol.addTwoNumbers(l1, l2);
 
-	ListNode* res = sol.addTwoNumbers(root1, root2);
-
-	ListNode* cur = res;
-	while (cur != nullptr)
+	// Display the result to verify
+	ListNode* curPtr = result;
+	while (curPtr != nullptr)
 	{
-		cout << cur->val;
-		cur = cur->next;
-	}
-
-	// Free up the dynamically allocated memory to avoid memory leak
-	ListNode* cur1 = root1;
-	while (cur1 != nullptr)
-	{
-		ListNode* temp = cur1->next;
-		delete cur1;
-		cur1 = temp;
-	}
-
-	ListNode* cur2 = root2;
-	while (cur2 != nullptr)
-	{
-		ListNode* temp = cur2->next;
-		delete cur2;
-		cur2 = temp;
-	}
-
-	ListNode* cur3 = res;
-	while (cur3 != nullptr)
-	{
-		ListNode* temp = cur3->next;
-		delete cur3;
-		cur3 = temp;
+		cout << curPtr->val << '\t';
+		curPtr = curPtr->next;
 	}
 }
