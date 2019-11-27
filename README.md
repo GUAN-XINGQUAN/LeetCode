@@ -1,2 +1,2 @@
-# Solutions for LeetCode Problems using C++
-# Just for fun!!!
+# Solutions for LeetCode Problems Using C++.
+# Just Practice for Fun.
