@@ -1,31 +1,33 @@
-#include <iostream>
-#include <string>
+#include<iostream>
+#include<vector>
+#include<algorithm>
+
 using namespace std;
 
-
-class Solution
-{
+class Solution {
 public:
-	string reverseString(string s)
-	{
-		int first = 0;
-		int last = s.size()-1;
-		while (first < last)
+	void reverseString(vector<char>& s) {
+		int left = 0, right = s.size() - 1;
+		while (left < right)
 		{
-			char temp = s[first];
-			s[first] = s[last];
-			s[last] = temp;
-			first++;
-			last--;
+			swap(s[left++], s[right--]);
 		}
-		return s;
+
 	}
 };
 
+
 int main()
 {
-	string str = "hello";
+	vector<char> s = { 'h', 'e', 'l', 'l', 'o' };
 	Solution sol;
-	cout << sol.reverseString(str);
-}
+	sol.reverseString(s);
 
+	// Display the result
+	vector<char>::iterator it = s.begin();
+	while (it != s.end())
+	{
+		cout << *it << '\t';
+		it++;
+	}
+}
