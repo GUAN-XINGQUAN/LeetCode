@@ -11,73 +11,59 @@
 
 using namespace std;
 
-// Brute force (not recommended) ==> linear scan
-class Solution1 {
-public:
-    int findPeakElement(vector<int>& nums) {
-        for (int i = 0; i <= nums.size() - 1; i++)
-        {
-            if (isPeak(nums, i))
-                return i;
-        }
-        if (nums.empty())
-            return -1;
-        return nums.size()-1;
-    }
 
-    bool isPeak(vector<int>& nums, int index)
-    {
-        if (nums.empty())
-            return false;
-        if (nums.size() == 1)
-            return true;
-        if (index == 0)
-        {
-            if (nums[index] > nums[index + 1])
-                return true;
-        }
-        else if (index == nums.size()-1)
-        {
-            if (nums[index] > nums[index - 1])
-                return true;
-        }
-        else
-        {
-            if (nums[index] > nums[index - 1] && nums[index] > nums[index + 1])
-                return true;
-        }
-        return false;
-    }
+// Definition for a binary tree node.
+struct TreeNode {
+    int val;
+    TreeNode *left;
+    TreeNode *right;
+    TreeNode() : val(0), left(nullptr), right(nullptr) {}
+    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+    TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 };
-
-// Binary search
-// Please note that the peak element surely exist based on the problem statement.
+ 
+// User in order traverse for the BST
 class Solution {
 public:
-    int findPeakElement(vector<int>& nums) {
-        if (nums.empty())
-            return -1;
-        if (nums.size() == 1)
-            return 0;
-        int left = 0, right = nums.size() - 1;
-        while (left + 1 < right)
-        {
-            int mid = left + (right - left) / 2;
-            if (nums[mid] > nums[mid + 1])
-                right = mid;
-            else
-                left = mid;
-        }
-        return nums[left] > nums[right] ? left : right;
+    int kthSmallest(TreeNode* root, int k) {
+        vector<int> nodeVec;
+        inOrderHelper(root, nodeVec);
+        return nodeVec[k-1];
+    }
+    void inOrderHelper(TreeNode* node, vector<int>& nodeVec)
+    {
+        if (node == nullptr)
+            return;
+        if (node->left!=nullptr)
+            inOrderHelper(node->left, nodeVec);
+        nodeVec.push_back(node->val);
+        if (node->right != nullptr)
+            inOrderHelper(node->right, nodeVec);
     }
 };
-
 int main()
 {
-    vector<int> nums = { 1, 2, 1, 2, 1 };
+    TreeNode* root = new TreeNode(10);
+    TreeNode* t11 = new TreeNode(8);
+    TreeNode* t12 = new TreeNode(13);
+    TreeNode* t21 = new TreeNode(5);
+    TreeNode* t22 = new TreeNode(9);
+    TreeNode* t23 = new TreeNode(11);
+    TreeNode* t24 = new TreeNode(15);
+
+    root->left = t11;
+    root->right = t12;
+    t11->left = t21;
+    t11->right = t22;
+    t12->left = t23;
+    t12->right = t24;
+
     Solution sol;
-    int res = sol.findPeakElement(nums);
 
-    cout << res;
+    int res = sol.kthSmallest(root, 0);
+    cout << res << endl;
 
+    //sol.inOrderHelper(root, res);
+    //for (int i = 0; i < res.size(); i++)
+    //    cout << res[i] << '\t';
 }
