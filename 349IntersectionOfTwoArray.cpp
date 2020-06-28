@@ -1,66 +1,106 @@
 #include<iostream>
 #include<vector>
-#include<set>
 #include<algorithm>
+#include<unordered_set>
 
 using namespace std;
 
-// Method 1: use STL: set
-//class Solution {
-//public:
-//	vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
-//		set<int> st1;
-//		set<int> st2;
-//		for (unsigned i = 0; i < nums1.size(); i++)
-//		{
-//			if (st1.count(nums1[i]) == 0)
-//				st1.insert(nums1[i]);
-//		}
-//		for (unsigned i = 0; i < nums2.size(); i++)
-//		{
-//			if (st1.count(nums2[i]) != 0)
-//				st2.insert(nums2[i]);
-//		}
-//		vector<int> res(st2.begin(), st2.end());
-//		return res;
-//	}
-//};
-
-
-// Method 2: sort two arrays and find intersection
-class Solution
-{
+// Solution 1: use STL set (take advantage of C++)
+class Solution1 {
 public:
-	vector<int> intersection(vector<int>& nums1, vector<int>& nums2)
-	{
+	vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
 		vector<int> result;
-		sort(nums1.begin(), nums1.end());
-		sort(nums2.begin(), nums2.end());
-		unsigned i = 0, j = 0;
-		while (i < nums1.size() && j < nums2.size())
+		unordered_set<int> num1Set, num2Set;
+		for (int i = 0; i < nums1.size(); i++)
 		{
-			if (nums1[i] == nums2[j])
-			{
-				if (result.empty())
-					result.push_back(nums1[i]);
-				else if (result.back() != nums1[i])
-					result.push_back(nums1[i]);
-				i++, j++;
-			}
-			else if (nums1[i] < nums2[j])
-				i++;
-			else
-				j++;
+			if (num1Set.count(nums1[i]) == 0)
+				num1Set.insert(nums1[i]);
+		}
+		for (int j = 0; j < nums2.size(); j++)
+		{
+			if (num2Set.count(nums2[j]) == 0)
+				num2Set.insert(nums2[j]);
+		}
+		for (int each : num2Set)
+		{
+			if (num1Set.count(each) != 0)
+				result.push_back(each);
 		}
 		return result;
 	}
 };
 
+// Solution 3: use binary search
+class Solution2 {
+public:
+	vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
+		unordered_set<int> result;
+		sort(nums1.begin(), nums1.end());
+		for (int i = 0; i < nums2.size(); i++)
+		{
+			if (isInArray(nums1, nums2[i]))
+				result.insert(nums2[i]);
+		}
+		return vector<int> {result.begin(), result.end()};
+	}
+	bool isInArray(vector<int> nums, int target)
+	{
+		if (nums.empty())
+			return false;
+		int left = 0, right = nums.size() - 1;
+		while (left + 1 < right)
+		{
+			int mid = left + (right - left) / 2;
+			if (nums[mid] < target)
+				left = mid;
+			else
+				right = mid;
+		}
+		if (right < left)
+			return false;
+		else if (nums[left] == target)
+			return true;
+		else if (nums[right] == target)
+			return true;
+		else
+			return false;
+	}
+};
+
+// Simplify the binary search codes
+class Solution {
+public:
+	vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
+		unordered_set<int> result;
+		sort(nums1.begin(), nums1.end());
+		for (int i = 0; i < nums2.size(); i++)
+		{
+			if (isInArray(nums1, nums2[i]))
+				result.insert(nums2[i]);
+		}
+		return vector<int> {result.begin(), result.end()};
+	}
+	bool isInArray(vector<int> nums, int target)
+	{
+		int left = 0, right = nums.size();
+		while (left < right)
+		{
+			int mid = left + (right - left) / 2;
+			if (nums[mid] == target)
+				return true;
+			if (nums[mid] < target)
+				left = mid+1;
+			else
+				right = mid;
+		}
+		return false;
+	}
+};
 
 int main()
 {
-	vector<int> nums1 = { 1, 2, 2, 1 };
-	vector<int> nums2 = { 2, 2 };
+	vector<int> nums1 = { 4,9,5 };
+	vector<int> nums2 = { 9,4,9,8,4 };
 	Solution sol;
 	vector<int> res = sol.intersection(nums1, nums2);
 	vector<int>::iterator it = res.begin();
