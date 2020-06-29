@@ -1,29 +1,45 @@
 #include <iostream>
+#include <vector>
+#include <stack>
+#include <queue>
+#include <algorithm>
+#include <string>
+#include <unordered_set>
+#include <unordered_map>
+
+// #include "NestedVectorCharVisualization.h"
 
 using namespace std;
 
+// Binary search
 class Solution {
 public:
-	int mySqrt(int x) {
-		if (x <= 1)
-			return x;
-		int left = 0, right = x;
-		while (left < right)
-		{
-			int mid = (left + right) / 2;
-			if (mid <= x / mid)
-				left = mid + 1;
-			else
-				right = mid;
-		}
-		return left-1;
-	}
+    int mySqrt(int x) {
+        if (x == 0)
+            return 0;
+        int left = 1, right = x;
+        while (left + 1 < right)
+        {
+            int mid = left + (right - left) / 2;
+            if (mid < x / mid)
+                left = mid;
+            else
+                right = mid;
+        }
+        // cout << left << '\t' << right << endl;
+        return (right <= x / right) ? right : left;
+    }
 };
 
 int main()
 {
-	Solution sol;
-	int x = 16;
-	int result = sol.mySqrt(x);
-	cout << "The result is: " << result << endl;
+    double x = 10;
+   
+    Solution sol;
+
+    int res = sol.mySqrt(x);
+
+    cout << res << endl;
+   
+    
 }
