@@ -7,21 +7,25 @@
 #include <unordered_set>
 #include <unordered_map>
 
-// #include "NestedVectorIntVisualization.h"
+// #include "NestedVectorCharVisualization.h"
 
 using namespace std;
 
-class Solution {
+// Linear scan + Binary search
+class Solution1 {
 public:
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
-        // edge case
-        if (matrix.size()==0)
+        if (matrix.empty() || matrix[0].empty())
             return false;
-        for (int i = 0; i < matrix.size(); i++)
+        int row = matrix.size(), col = matrix[0].size();
+
+        // Linear scan
+        for (int i = 0; i < row; i++)
         {
             if (isInLine(matrix[i], target))
             {
-                int left = 0, right = matrix[i].size() - 1;
+                // Binary search
+                int left = 0, right = col - 1;
                 while (left + 1 < right)
                 {
                     int mid = left + (right - left) / 2;
@@ -30,25 +34,81 @@ public:
                     else
                         right = mid;
                 }
-                if (matrix[i][left] == target)
+                // Consider all possible cases
+                if (col == 1 && matrix[i][left] != target)
+                    return false;
+                else if (matrix[i][left] == target)
                     return true;
-                if (matrix[i][right] == target)
+                else if (matrix[i][right] == target)
                     return true;
+                else
+                    return false;
             }
         }
         return false;
     }
-
-    bool isInLine(vector<int> oneLine, int target)
+    bool isInLine(vector<int> line, int target)
     {
-        if (oneLine.empty())
+        if (line.empty())
             return false;
-        if (oneLine.size() == 1 && oneLine[0] != target)
+        else if (line.front() > target || line.back() < target)
             return false;
-        if (oneLine.front() <= target && oneLine.back() >= target)
+        else
+            return true;
+    }
+};
+
+// Binary search + binary search
+class Solution {
+public:
+    bool searchMatrix(vector<vector<int>>& matrix, int target) {
+        // all edge cases
+        if (matrix.empty() || matrix[0].empty())
+            return false;
+        if (matrix[0][0] > target || matrix.back().back() < target)
+            return false;
+        int line = findWhichLine(matrix, target);
+
+        // Binary search to find whether it has in this line or not.
+        if (line == -1)
+            return false;
+        // cout << line << endl;
+        int left = 0, right = matrix[line].size()-1;
+        while (left + 1 < right)
+        {
+            int mid = left + (right - left) / 2;
+            if (matrix[line][mid] < target)
+                left = mid;
+            else
+                right = mid;
+        }
+        if (matrix[line][left] == target)
+            return true;
+        else if (matrix[line][right] == target)
             return true;
         else
             return false;
+    }
+
+    int findWhichLine(vector<vector<int>>& matrix, int target)
+    {
+        int row = matrix.size(), col = matrix[0].size();
+        //Binary search to find which line
+        int top = 0, bottom = row - 1;
+        while (top + 1 < bottom)
+        {
+            int mid = top + (bottom - top) / 2;
+            if (matrix[mid][0] < target)
+                top = mid;
+            else
+                bottom = mid;
+        }
+        if (matrix[top][0] <= target && matrix[top].back()>= target)
+            return top;
+        else if (matrix[bottom][0] <= target && matrix[bottom].back() >= target)
+            return bottom;
+        else
+            return -1;
     }
 };
 
@@ -63,9 +123,14 @@ int main()
     };
 
     // edge case
-    vector<vector<int>> matrix = { {} };
-    int  target = 1;
- 
+    vector<vector<int>> matrix2 = { {} };
+    
+    // edge case
+    vector<vector<int>> matrix = { {1}, {13}, {15} };
+    
+    
+    int  target = 15;
+
     Solution sol;
     if (sol.searchMatrix(matrix, target))
         cout << "YES\n";
