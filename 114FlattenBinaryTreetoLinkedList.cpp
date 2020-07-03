@@ -55,19 +55,6 @@ public:
     }
 };
 
-
-// Divide and conquer (recommended)
-class Solution {
-public:
-    void flatten(TreeNode* root) {
-
-    }
-    TreeNode* getLastNode(TreeNode* root)
-    {
-        if 
-    }
-};
-
 int main()
 {
     TreeNode* root = new TreeNode(1);
