@@ -1,34 +1,44 @@
 #include <iostream>
 #include <vector>
+#include <stack>
+#include <queue>
+#include <algorithm>
+#include <string>
+#include <unordered_set>
+#include <unordered_map>
+
+// #include "nestedVectorIntVisualization.h"
+// #include "nestedVectorCharVisualization.h"
+// #include "treeVisualizationinPreorder.h"
 
 using namespace std;
 
+// time complexity O(N)
+// Two pointers moving towards each other
 class Solution {
 public:
-	int maxArea(vector<int>& height) {
-		int res = 0, left = 0, right = height.size() - 1;
-		while (left < right)
-		{
-			int h = height[left] > height[right] ? height[right] : height[left];
-			int area = h * (right - left);
-			if (area > res)
-				res = area;
-			if (height[left] < height[right])
-				++left;
-			else
-				--right;
-		}
-		return res;
-	}
+    int maxArea(vector<int>& height) {
+        int left = 0, right = height.size() - 1, maxArea = 0;
+        while (left < right)
+        {
+            int area = min(height[left], height[right]) * (right - left);
+            maxArea = max(maxArea, area);
+            if (height[left] < height[right])
+                left++;
+            else
+                right--;
+        }
+        return maxArea;
+    }
 };
 
 int main()
 {
-	int arr[] = { 1,8,6,2,5,4,8,3,7 };
-	vector<int> vec;
-	for (int i = 0; i != 9; i++)
-		vec.push_back(arr[i]);
-	Solution sol;
-	int res = sol.maxArea(vec);
-	cout << res << endl;
+    vector<int> heights = { 1,8,6,2,5,4,8,3,7 };
+
+    Solution sol;
+
+    int res = sol.maxArea(heights);
+
+    cout << res << endl;
 }
