@@ -63,6 +63,7 @@ public:
             {
                 swap(nums[i], nums[right]);
                 right--;
+                i--;
             }
         }
     }
@@ -70,7 +71,7 @@ public:
 
 int main()
 {
-    vector<int> colors = { 2, 0, 1};
+    vector<int> colors = { 1,2,0};
     Solution sol;
 
     sol.sortColors(colors);
