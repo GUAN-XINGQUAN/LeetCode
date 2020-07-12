@@ -25,7 +25,7 @@ public:
             maxCount = max(maxCount, counts[s[i] - 'A']);
             while (i - start + 1 - maxCount > k)
             {
-                --counts[s[i] - 'A'];
+                --counts[s[start] - 'A'];
                 ++start;
             }
             res = max(res, i - start + 1);
@@ -36,5 +36,11 @@ public:
 
 int main()
 {
+    string s = "AABABBA";
+    int k = 1;
+    Solution sol;
 
+    int res = sol.characterReplacement(s, k);
+
+    cout << res << endl;
 }
