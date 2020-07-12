@@ -6,6 +6,9 @@
 #include <string>
 #include <unordered_set>
 #include <unordered_map>
+#include <cassert>
+
+// User defined function to visualize 2D array.
 
 // #include "nestedVectorIntVisualization.h"
 // #include "nestedVectorCharVisualization.h"
@@ -14,40 +17,84 @@
 
 using namespace std;
 
-class Solution {
+// Revise the orignial linked list
+class Solution1 {
 public:
-    int removeDuplicates(vector<int>& nums) {
+    ListNode* partition(ListNode* head, int x) {
         // edge case
-        if (nums.size() <= 2)
-            return nums.size();
-        // fast and slow pointers
-        int count = 1, left = 0, right = 1;
-        while (right < nums.size())
+        if (head == nullptr)
+            return nullptr;
+        // linear scan to find the first node with value > x
+        ListNode* dummy = new ListNode(-1);
+        dummy->next = head;
+        ListNode* pre = dummy, * cur = head;
+        while (pre->next != nullptr && pre->next->val < x)
+            pre = pre->next;
+        cur = pre;
+        while (cur->next != nullptr)
         {
-            if (nums[right] == nums[left] && count == 0)
-                right++;
-            else
+            if (cur->next->val < x)
             {
-                if (nums[right] == nums[left])
-                    count--;
-                else
-                    count = 1;
-                left++;
-                nums[left] = nums[right];
-                right++;
+                ListNode* temp = cur->next;
+                cur->next = temp->next;
+                temp->next = pre->next;
+                pre->next = temp;
+                pre = pre->next;
             }
+            else
+                cur = cur->next;
         }
-        return left+1;
+        return dummy->next;
     }
 };
 
+// Create a new list to append all nodes with values < x
+class Solution {
+public:
+    ListNode* partition(ListNode* head, int x) {
+        if (head == nullptr)
+            return nullptr;
+        ListNode* dummy = new ListNode(-1);
+        ListNode* myDummy = new ListNode(-1);
+        dummy->next = head;
+        ListNode* cur = dummy, * myCur = myDummy;
+        while (cur->next != nullptr)
+        {
+            if (cur->next->val < x)
+            {
+                ListNode* temp = cur->next;
+                cur->next = temp->next;
+                myCur->next = temp;
+                temp->next = nullptr;
+                myCur = myCur->next;
+            }
+            else
+                cur = cur->next;
+        }
+        myCur->next = dummy->next;
+        return myDummy->next;
+    }
+};
+
+
 int main()
 {
-    vector<int> nums = { 1,1,1,2,3,3,3,3,4 };
+    ListNode* head = new ListNode(1);
+    ListNode* n1 = new ListNode(4);
+    ListNode* n2 = new ListNode(3);
+    ListNode* n3 = new ListNode(2);
+    ListNode* n4 = new ListNode(5);
+    ListNode* n5 = new ListNode(2);
+    
+    head->next = n1;
+    n1->next = n2;
+    n2->next = n3;
+    n3->next = n4;
+    n4->next = n5;
+
     Solution sol;
 
-    sol.removeDuplicates(nums);
+    ListNode* res = sol.partition(head, 3);
 
-    for (int i = 0; i < nums.size(); i++)
-        cout << nums[i] << '\t';
+    listNodeVisualization(res);
 }
