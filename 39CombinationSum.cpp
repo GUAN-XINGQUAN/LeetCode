@@ -1,48 +1,56 @@
 #include <iostream>
 #include <vector>
+#include <stack>
+#include <queue>
+#include <algorithm>
+#include <string>
+#include <unordered_set>
+#include <unordered_map>
+
+#include "nestedVectorIntVisualization.h"
+// #include "nestedVectorCharVisualization.h"
+// #include "treeVisualizationinPreorder.h"
+// #include "listNodeVisualization.h"
 
 using namespace std;
 
+// DFS
 class Solution {
 public:
-	vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
-		vector<vector<int>> res;
-		vector<int> batch;
-		combinationSumHelper(candidates, target, 0, batch, res);
-		return res;
-	}
-	void combinationSumHelper(vector<int>& candidates, int target, int startIndex, vector<int>& batch,
-		vector<vector<int>>& res)
-	{
-		if (target < 0)
-			return;
-		if (target == 0)
-		{
-			res.push_back(batch);
-			return;
-		}
-		for (int i = startIndex; i <= candidates.size() - 1; i++)
-		{
-			batch.push_back(candidates[i]);
-			combinationSumHelper(candidates, target - candidates[i], i, batch, res);
-			batch.pop_back();
-		}
-	}
+    vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
+        vector<int> out;
+        vector<vector<int>> res;
+        DFS(candidates, target, 0, out, res);
+        return res;
 
+    }
+    void DFS(vector<int>& candidates, int target, int start, vector<int>& out, vector<vector<int>>& res)
+    {
+        // base case
+        if (target < 0)
+            return;
+        if (target == 0)
+        {
+            res.push_back(out);
+            return;
+        }
+        // recursive case
+        for (int i = start; i < candidates.size(); i++)
+        {
+            out.push_back(candidates[i]);
+            DFS(candidates, target - candidates[i], i, out, res);
+            out.pop_back();
+        }
+    }
 };
 
 int main()
 {
-	vector<int> vec = { 2, 3, 6, 7 };
-	int target = 7;
-	Solution sol;
-	vector<vector<int>> res = sol.combinationSum(vec, target);
-	for (int i = 0; i <= res.size() - 1; i++)
-	{
-		for (int j = 0; j <= res[i].size() - 1; j++)
-		{
-			cout << res[i][j];
-		}
-		cout << endl;
-	}
+    vector<int> candidates = { 2,3,5 };
+    int target = 8;
+    Solution sol;
+
+    vector<vector<int>> res = sol.combinationSum(candidates, target);
+
+    nestedVectorIntVisualization(res);
 }
