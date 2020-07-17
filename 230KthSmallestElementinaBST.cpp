@@ -69,20 +69,19 @@ public:
 // Rely on the property of BST
 class Solution {
 public:
-    int kthSmallest(TreeNode* root, int k)
-    {
-        int numNodesLeftBranch = countNodes(root->left);
-        if (k < numNodesLeftBranch + 1)
+    int kthSmallest(TreeNode* root, int k) {
+        int count = countNodes(root->left);
+        if (k < count+1)
             return kthSmallest(root->left, k);
-        else if (k > numNodesLeftBranch + 1)
-            return kthSmallest(root->right, k);
+        else if (k > count+1)
+            return kthSmallest(root->right, k-count-1);
         return root->val;
     }
     int countNodes(TreeNode* node)
     {
         if (node == nullptr)
             return 0;
-        return 1 + countNodes(node->left) + countNodes(node->right);
+        else return 1 + countNodes(node->left) + countNodes(node->right);
     }
 };
 
