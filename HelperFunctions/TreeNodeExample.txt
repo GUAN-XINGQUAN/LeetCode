@@ -1,0 +1,18 @@
+
+
+TreeNode* head = new TreeNode(1);
+TreeNode* t11 = new TreeNode(2);
+TreeNode* t12 = new TreeNode(3);
+TreeNode* t21 = new TreeNode(4);
+TreeNode* t22 = new TreeNode(5);
+
+head->left = t11;
+head->right = t12;
+t11->left = t21;
+t11->right = t22;
+
+Solution sol;
+if (sol.isBalanced(head))
+    cout << "YES\n";
+else
+    cout << "No\n";
