@@ -60,28 +60,26 @@ public:
 };
 
 // Approach 2: use heap
-//bool compare(ListNode* l1, ListNode* l2)
-//{
-//    if (l1->val < l2->val)
-//        return true;
-//    else
-//        return false;
-//}
+struct cmp {
+    bool operator() (ListNode* l1, ListNode* l2)
+    {
+        if (l1->val > l2->val)
+            return true;
+        else
+            return false;
+    }
+};
 
 class Solution {
 public:
     ListNode* mergeKLists(vector<ListNode*>& lists) {
-        auto compare = [](ListNode*& a, ListNode*& b) {
-            return a->val > b->val;
-        };
-        priority_queue < ListNode*, vector<ListNode*>, decltype(compare)> pQ(compare);
+        priority_queue<ListNode*, vector<ListNode*>, cmp> pQ;
+        ListNode* dummy = new ListNode(-1), * cur = dummy;
         for (ListNode* each : lists)
         {
             if (each != nullptr)
                 pQ.push(each);
         }
-        ListNode* dummy = new ListNode(-1);
-        ListNode* cur = dummy;
         while (!pQ.empty())
         {
             ListNode* temp = pQ.top();
