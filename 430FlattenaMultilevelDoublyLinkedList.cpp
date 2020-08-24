@@ -36,16 +36,16 @@ public:
         {
             if (cur->child != nullptr)
             {
-                Node* next = cur->next;
+                Node* nextNode = cur->next;
                 Node* last = cur->child;
                 while (last->next != nullptr)
                     last = last->next;
                 cur->next = cur->child;
                 cur->next->prev = cur;
                 cur->child = nullptr;
-                last->next = next;
-                if (next != nullptr)
-                    next->prev = last;
+                last->next = nextNode;
+                if (nextNode != nullptr)
+                    nextNode->prev = last;
             }
             cur = cur->next;
         }
