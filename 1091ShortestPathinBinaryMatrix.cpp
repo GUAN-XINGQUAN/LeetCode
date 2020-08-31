@@ -14,7 +14,8 @@
 
 using namespace std;
 
-class Solution {
+// list all 8 directions
+class Solution1 {
 public:
     int shortestPathBinaryMatrix(vector<vector<int>>& grid) {
         // edge case
@@ -34,9 +35,9 @@ public:
             {
                 int temp = locQueue.front();
                 locQueue.pop();
-                if (temp == (row-1)*(col-1))
-                    return res;
                 int x = temp / col, y = temp % col;
+                if (x == row - 1 && y == col - 1)
+                    return res;
                 // up direction
                 if (x > 0 && grid[x - 1][y] != 1 && !visit[x - 1][y])
                 {
@@ -90,6 +91,52 @@ public:
         return -1;
     }
 };
+
+
+// use loop to represent 8 directions
+class Solution {
+public:
+    int shortestPathBinaryMatrix(vector<vector<int>>& grid) {
+        // edge case
+        if (grid.empty() || grid[0].empty() || grid[0][0] == 1 || grid.back().back() == 1)
+            return -1;
+
+        // directions: up, down, left, right, up-left, up-right, down-left, down-right
+        vector<vector<int>> dirs = { {-1, 0}, {1, 0}, {0, -1}, {0, 1}, {-1, -1}, {-1, 1}, {1, -1}, {1, 1} };
+        int row = grid.size(), col = grid.size();
+        vector<vector<bool>> visit(row, vector<bool>(col, false));
+        queue<int> locQueue({ 0 });
+        visit[0][0] = true;
+        // BFS
+        int res = 0;
+        while (!locQueue.empty())
+        {
+            res++;
+            for (int i = locQueue.size(); i > 0; i--)
+            {
+                int temp = locQueue.front();
+                locQueue.pop();
+                int x = temp / col, y = temp % col;
+                if (x == row - 1 && y == col - 1)
+                    return res;
+                // up direction
+                for (auto eachDir : dirs)
+                {
+                    int nextX = x + eachDir[0];
+                    int nextY = y + eachDir[1];
+                    if (nextX >= 0 && nextX <= row - 1 && nextY >= 0 && nextY <= col - 1 && grid[nextX][nextY] != 1
+                        && !visit[nextX][nextY])
+                    {
+                        locQueue.push(nextX * col + nextY);
+                        visit[nextX][nextY] = true;
+                    }
+                }
+            }
+        }
+        return -1;
+    }
+};
+
 
 int main()
 {
