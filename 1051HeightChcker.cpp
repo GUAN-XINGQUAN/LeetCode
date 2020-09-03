@@ -34,10 +34,4 @@ int main()
 {
     Solution sol;
 
-    vector<int> nums = { 1, 2, 3, 1 };
-
-    int res = sol.rob(nums);
-
-    cout << res << endl;
-    
 }
