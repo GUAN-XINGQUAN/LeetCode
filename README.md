@@ -1,6 +1,5 @@
-# Solutions for LeetCode Problems Using C++.
+# Solutions for LeetCode Problems Using Python.
 # Just Practice for Fun.
 
+Check LeetCode-Retag.md for classified problems!
 
-
-In some files, I also designed the testing cases. To visualize the design results, you might need some helper functions which you can find under the folder "HelperFunctions".
