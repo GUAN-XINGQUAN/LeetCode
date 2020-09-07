@@ -1,4 +1,6 @@
 Source: [Windsooon](https://gist.github.com/Windsooon)/**[leetcode_retag.md](https://gist.github.com/Windsooon/e663358a6be45a93af2665206c4d4ae9)**
+:heavy_check_mark: :x: :ballot_box_with_check: :owl: :hammer_and_wrench: :construction: :stop_sign: :beginner: :shield: :dragon: :unicorn: :sparkles: :+1: :fire: :space_invader: :woman_astronaut: :octopus: :dizzy: :bird: :airplane: :eagle: 
+
 
 - Pre Sum (hash map)
     - [1. Two Sum](https://leetcode.com/problems/two-sum/)
@@ -9,9 +11,9 @@ Source: [Windsooon](https://gist.github.com/Windsooon)/**[leetcode_retag.md](htt
 - Calculation
 
     - [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) :heavy_check_mark:
-    - [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/)
+    - [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/) ❌
     - [31. Next Permutation](https://leetcode.com/problems/next-permutation/)
-    - [134. Gas Station](https://leetcode.com/problems/gas-station/)
+    - [134. Gas Station](https://leetcode.com/problems/gas-station/) :heavy_check_mark:
     - [166. Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/)
     - [202. Happy Number](https://leetcode.com/problems/happy-number/)
     - [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
