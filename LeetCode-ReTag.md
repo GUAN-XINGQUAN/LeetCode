@@ -22,7 +22,7 @@ Source: [Windsooon](https://gist.github.com/Windsooon)/**[leetcode_retag.md](htt
     - [621. Task Scheduler](https://leetcode.com/problems/task-scheduler/)
 - Monotonous Stack
 
-    - [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
+    - [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) :heavy_check_mark:
     - [84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
     - [85. Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)
     - [456. 132 Pattern](https://leetcode.com/problems/132-pattern/)
@@ -122,7 +122,7 @@ Source: [Windsooon](https://gist.github.com/Windsooon)/**[leetcode_retag.md](htt
     - [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)
     - [212. Word Search II](https://leetcode.com/problems/word-search-ii/)
     - [282. Expression Add Operators](https://leetcode.com/problems/expression-add-operators/)
-    - [322. Coin Change](https://leetcode.com/problems/coin-change/)
+    - [322. Coin Change](https://leetcode.com/problems/coin-change/) :heavy_check_mark:
     - [403. Frog Jump](https://leetcode.com/problems/frog-jump/)
 
 - DFS Hard
@@ -176,7 +176,7 @@ Source: [Windsooon](https://gist.github.com/Windsooon)/**[leetcode_retag.md](htt
     - [44. Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)
     - [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/)
     - [62. Unique Paths](https://leetcode.com/problems/unique-paths/)
-    - [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
+    - [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) :heavy_check_mark:
     - [91. Decode Ways](https://leetcode.com/problems/decode-ways/)
     - [96. Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)
     - [97. Interleaving String](https://leetcode.com/problems/interleaving-string/)
