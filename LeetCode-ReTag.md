@@ -4,7 +4,7 @@ Source: [Windsooon](https://gist.github.com/Windsooon)/**[leetcode_retag.md](htt
 
 - Pre Sum (hash map)
     - [1. Two Sum](https://leetcode.com/problems/two-sum/)
-    - [15. 3Sum](https://leetcode.com/problems/3sum/)
+    - [15. 3Sum](https://leetcode.com/problems/3sum/) :heavy_check_mark:
     - [18. 4Sum](https://leetcode.com/problems/4sum/)
     - [410. Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) 
     - [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) :heavy_check_mark:
@@ -36,7 +36,7 @@ Source: [Windsooon](https://gist.github.com/Windsooon)/**[leetcode_retag.md](htt
     - [1087. Brace Expansion](https://leetcode.com/problems/brace-expansion/)
 - Sort First
 
-    - [16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/)
+    - [16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/) :heavy_check_mark:
     - [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/)
     - [57. Insert Interval](https://leetcode.com/problems/insert-interval/)
     - [253. Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)
@@ -89,7 +89,7 @@ Source: [Windsooon](https://gist.github.com/Windsooon)/**[leetcode_retag.md](htt
     - [159. Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/)
     - [209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
     - [340. Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/)
-    - [438. Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)
+    - [438. Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) :heavy_check_mark:
     - [567. Permutation in String](https://leetcode.com/problems/permutation-in-string/)
     - [727. Minimum Window Subsequence](https://leetcode.com/problems/minimum-window-subsequence/)
 
