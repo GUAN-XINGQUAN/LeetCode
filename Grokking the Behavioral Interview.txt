@@ -1,0 +1,104 @@
+Grokking the Behavioral Interview
+----------------------------------------
+I. Truths about behavior interview
+----------------------------------------
+1. The Purpose of Behavioral Interviews? What interviewers are really assessing?
+- Depends on the culture of the company. 
+- Some points they may wonder - 
+	- Are you calm under pressure?
+	- Are you comfortable giving formal presentations?
+	- Can you respectfully give your boss bad news?
+	- Your ability to work in teams and collaborate with others?
+	- Are you good at knowledge sharing or being a good motivator?
+	- They might prioritize self-awareness, growth mindset, ambition, humility, comfort with ambiguity, or risk tolerance.
+2. Use the STAR technique to explain your experience. STAR stands for Situation(background), Task(What task? Why task? Your responsibility?), Action(I did instead of we did), and Results(conclusion. Dosen't need to be a happy ending).
+3. Be Concise. Get Confirmation. Avoid being absolute. Control the Pace. 
+4. Your life might be your resume. In some cases when professional experience is not available, try to find some examples from your non-professional life. The goal of the BQ intervew is to know more about YOURSELF.
+5. Some points about answering a prior experience question - 
+- Focus on what I did instead of what WE did. 
+6. Some points about answering a hypotheticals question - 
+- There're 2 important things for such questions - thought process and communication. 
+- If you are someone who loves details and accuracy, you will be tempted to ask for specifics before answering. Resist this urge! This is a hypothetical situation, not a real one. If you need specifics, state them as your assumptions. For example, “I will assume that the team is co-located,” or “I will say it’s springtime​ and temperatures outside are moderate.” For more information, check the Google tips here: https://bit.ly/3nvPP5z
+- You can take advantage of hypothetical questions to highlight specific skills that you know will be beneficial to the organization (hence why it is important to do your homework!).
+- These questions may not necessarily follow the STAR technique because the situation is given and there are no tangible results that you can declare. Instead, restate the situation, be creative with your tasks and actions, and the results will be implied.
+7. Your turn: how to ask questions. 
+- Always prepare one.
+- If you found a new one during the interview, use this one. 
+- The best method is to ask your interviewer questions that give them a chance to talk about themselves.
+- Ask open-ended questions that elicit a response beyond “yes” or “no.”
+- If you found that the interviewer is ending the interview, do not ask. Send these questions to your recruiters.
+- Ask questions that are in the same context as the behavioral interview.
+
+
+
+II. Some questions to ask before a behavioral interview
+----------------------------------------
+1. What is the goal of that company? Does this goal facinating? Is there any overlapping between this one and your own?
+2. What's the tag/signal that the company with to deliver to the public?
+3. What's the main points required by the job description? (besides of tech)
+4. What questions do I want to ask the company in person?
+
+
+
+III. Different types of interviews
+----------------------------------------
+1. Culture Interview. Ususally carried out with an recruiter. It usually starts with a self-introduction. Education background, skills, previous professional experience, expectations for future career will help to form what kind of person you are. Try to impress his or her!
+2. Phone interview. There're some techniques/tricks for phone interviews, including doing research at the company, selecting morning timeslots, listening and then talking. You can send a follow-up letter if needed. This note should be short and restate your interest, your confidence that you can do the job, and a question about next steps.
+3. On-site interview. In this section, body language is important. Try to open your body up, lean-in to the conversation, and mirror your interviewer(aka do what he/she does, which will reinforces your human connection). If it is a virtual on-site interview, prepare your cam ahead of time. 
+4. Not an exact match? No problem! Try to make yourself likable, and show-off your advantages and how will you overcome the points that make you dismatched. 
+5. Rejection is normal. Sometimes, it's not your fault, and this job is not the only job in existence.
+
+
+
+IV. Some BQ quesitons
+----------------------------------------
+1. Prior experience questions
+- What was the last project you led, and what was its outcome?
+- Give me an example of a time that you felt you went above and beyond at work.
+- Describe a time when your work was criticized, how you responded, and what happened as a result.
+- Have you ever been on a team where someone was not doing their part? How did you handle it?
+- Tell me about a time when you had to give someone difficult feedback. How did you handle it?
+- How do you handle working with people who annoy you?
+- What was the most difficult period in your life, and how did you deal with it?
+- Give me an example of a time you did something wrong. How did you handle it?
+- Tell me about a time when you had to deal with conflict on the job.
+- What assignment was too difficult for you, and how did you resolve the issue?
+- Give me an example of a difficult decision you had to make. HOw did you come to that decision?
+- Give an example of an idea you implemented.
+- Describe a mentor who has impacted you in a positive way.
+- Was there a person in your career who really made a difference? In what way?
+- Tell me about your proudest achievement.
+2. hypotheticals question
+- Your team is giving a presentation in two hours and one member just called in sick. What do you do?
+If you had to choose between a work environment that was always in chaos and one in which nothing ever changed, which would you choose?
+- If you inherited so much money that you never had to work again, how would you spend your time?
+- If you could create a fictional company to make the world a better place, what would that company do?
+- Imagine that you are the product manager for a consumer device that just launched, but 20% of the devices are breaking in the first week from normal use. What do you do?
+- Describe how you would handle a situation if you were required to finish multiple tasks by the end of the day, and there was no conceivable way that you could finish them.
+3. Questions from you
+- Is there anything about my background or resume that makes you question whether or not I am a good fit for this role?
+- What sort of tangible changes has this organization made in regards to promoting gender diversity?
+- What are the most exciting projects you’ve worked on here?
+- What do you like most about the organization?
+- What would you change about the organization?
+- How has the organization changed since you’ve joined?
+- What do you like most about working here?
+- Can you describe the organization’s overall management style and the type of person who usually does well here?
+- What excites you the most about the organization’s future?
+- If you could change one thing about the organization, what would it be?
+- Does the organization have any traditions or rituals that you like?
+- Where do you see the organization in three years and how would I contribute to that if I’m hired for this role?
+- What is a challenge the organization is facing right now and how could I contribute to overcoming it?
+- In what ways might this role change in the next year?
+- What would the onboarding process be like for this role?
+- What can you tell me about the position that isn’t in the job description?
+- Do you expect to do more hiring in this group in the next six months?
+- What surprised you about the organization after you started working here?
+- What has allowed you to be successful here?
+- How does the organization respond to failure?
+- Tell me about your most successful employees. What do they do that really sets them apart?
+- What haven’t I asked about that most candidates want to know?
+- If you were interviewing with your organization again, what questions would you be asking?
+- (If this is your future boss) How would you describe your management style?
+- What’s your timeline for the next steps?
+- Are there resources I could review in advance to get a head start on the learning curve?
