@@ -18,4 +18,6 @@ class Solution:
 """
 https://leetcode.com/problems/set-mismatch/
 Cyclic Sort. 
+The Structure of cyclic sort is always a while loop (line 9 - 17). 
+The swap sorting will make the unwanted value at the "wrong" location. 
 """
