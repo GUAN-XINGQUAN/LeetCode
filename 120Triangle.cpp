@@ -84,6 +84,38 @@ public:
     }
 };
 
+// Dynamic programming with only O(n) space
+// O(n) space
+class Solution {
+public:
+    int minimumTotal(vector<vector<int>>& triangle) {
+        int n = triangle.size();
+        vector<int> dp (n, 0);
+        dp[0] = triangle[0][0];
+        
+        for (int i = 1; i < triangle.size(); i++)
+        {
+            for (int j = triangle[i].size()-1; j >= 0; j--)
+            {
+                // last element
+                if (j == triangle[i].size()-1)
+                    dp[j] = triangle[i][j] + dp[j-1];
+                // 1st element
+                else if (j == 0)
+                    dp[j] = triangle[i][j] + dp[j];
+                // rest elements
+                else
+                    dp[j] = min(dp[j], dp[j-1]) + triangle[i][j];
+            }
+        }
+        
+        int mn = INT_MAX;
+        for (int j = 0; j < n; j++)
+            mn = min(mn, dp[j]);
+        return mn;
+    }
+};
+
 
 int main()
 {
