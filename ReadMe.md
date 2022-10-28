@@ -28,9 +28,7 @@
 
 - [627. Swap Salary.sql](/SQL%20Practice/627.%20Swap%20Salary.sql)
 
-- [1141. User Activity for the Past 30 Days I](/SQL%20Practice/
-  
-  1141.%20User%20Activity%20for%20the%20Past%2030%20Days%20I.sql)
+- [1141. User Activity for the Past 30 Days I](/SQL%20Practice/1141.%20User%20Activity%20for%20the%20Past%2030%20Days%20I.sql)
 
 - [1148. Article Views I.sql](/SQL%20Practice/1148.%20Article%20Views%20I.sql)
 
