@@ -13,13 +13,13 @@
 
 - [183. Customers Who Never Order.sql](/SQL%20Practice/183.%20Customers%20Who%20Never%20Order.sql)
 
-- [197. Rising Temperature.sql](/SQL%20Practice/197. Rising Temperature.sql)
+- [197. Rising Temperature.sql](/SQL%20Practice/197.%20Rising%20Temperature.sql)
 
 - [183. Customers Who Never Order.sql](/SQL%20Practice/183.%20Customers%20Who%20Never%20Order.sql)
 
 - [183. Customers Who Never Order.sql](/SQL%20Practice/183.%20Customers%20Who%20Never%20Order.sql)
 
-- [584. Find Customer Referee.sql](/SQL%20Practice/584. Find Customer Referee.sql)
+- [584. Find Customer Referee.sql](/SQL%20Practice/584.%20Find%20Customer%20Referee.sql)
 
 - [595. Big Countries](/SQL%20Practice/595.%20Big%20Countries.sql)
 
