@@ -6,7 +6,6 @@
 
 ## <a id="sql">SQL Relevance</a>
 
-
 - [175. Combine Two Tables.sql](/SQL%20Practice/175.%20Combine%20Two%20Tables.sql)
 
 - [176. Second Highest Salary.sql](/SQL%20Practice/176.%20Second%20Highest%20Salary.sql)
@@ -29,6 +28,10 @@
 
 - [627. Swap Salary.sql](/SQL%20Practice/627.%20Swap%20Salary.sql)
 
+- [1141. User Activity for the Past 30 Days I.sql](/SQL%20Practice/
+  
+  %20User%20Activity%20for%20the%20Past%2030%20Days%20I.sql)
+
 - [1148. Article Views I.sql](/SQL%20Practice/1148.%20Article%20Views%20I.sql)
 
 - [1484. Group Sold Products By The Date.sql](/SQL%20Practice/1484.%20Group%20Sold%20Products%20By%20The%20Date.sql)
@@ -46,8 +49,3 @@
 - [1873. Calculate Special Bonus.sql](/SQL%20Practice/1873.%20Calculate%20Special%20Bonus.sql)
 
 - [1965. Employees With Missing Information.sql](/SQL%20Practice/1965.%20Employees%20With%20Missing%20Information.sql)
-
-
-
-
-
