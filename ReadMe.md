@@ -24,11 +24,11 @@
 - [595. Big Countries](/SQL%20Practice/595.%20Big%20Countries.sql)
 
 - [607. Sales Person.sql](/SQL%20Practice/607.%20Sales%20Person.sql)
-- 
+
 - [608. Tree Node.sql](/SQL%20Practice/608.%20Tree%20Node.sql)
-- 
+
 - [627. Swap Salary.sql](/SQL%20Practice/627.%20Swap%20Salary.sql)
-- 
+
 - [1148. Article Views I.sql](/SQL%20Practice/1148.%20Article%20Views%20I.sql)
 
 - [1484. Group Sold Products By The Date.sql](/SQL%20Practice/1484.%20Group%20Sold%20Products%20By%20The%20Date.sql)
