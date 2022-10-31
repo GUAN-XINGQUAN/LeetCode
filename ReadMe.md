@@ -18,9 +18,11 @@ Order of Execution:
 
 - [176. Second Highest Salary](/SQL%20Practice/176.%20Second%20Highest%20Salary.sql)
 
-- [182. Duplicate Emails](/SQL%20Practice/182.%20Duplicate%20Emails)
+- [182. Duplicate Emails](/SQL%20Practice/182.%20Duplicate%20Emails.sql)
 
 - [183. Customers Who Never Order](/SQL%20Practice/183.%20Customers%20Who%20Never%20Order.sql)
+
+- [196. Delete Duplicate Emails](/SQL%20Practice/196.%20Delete%20Duplicate%20Emails.sql)
 
 - [197. Rising Temperature](/SQL%20Practice/197.%20Rising%20Temperature.sql)
 
@@ -38,7 +40,7 @@ Order of Execution:
 
 - [627. Swap Salary](/SQL%20Practice/627.%20Swap%20Salary.sql)
 
-- [1050. Actors and Directors Who Cooperated At Least Three Times](/SQL%20Practice/1050.%20Actors%20and%20Directors%20Who Cooperated%20At%20Least%20Three%20Times.sql)
+- [1050. Actors and Directors Who Cooperated At Least](/SQL%20Practice/1050.%20Actors%20and%20Directors%20Who Cooperated%20At%20Least%20Three%20Times.sql)
 
 - [1084. Sales Analysis III](/SQL%20Practice/1084.%20Sales%20Analysis%20III.sql)
 
