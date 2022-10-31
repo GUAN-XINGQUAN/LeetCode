@@ -40,7 +40,7 @@ Order of Execution:
 
 - [627. Swap Salary](/SQL%20Practice/627.%20Swap%20Salary.sql)
 
-- [1050. Actors and Directors Who Cooperated At Least](/SQL%20Practice/1050.%20Actors%20and%20Directors%20Who Cooperated%20At%20Least%20Three%20Times.sql)
+- [1050. Actors and Directors Who Cooperated At Least](/SQL%20Practice/1050.%20Actors%20and%20Directors%20Who%20Cooperated%20At%20Least%20Three%20Times.sql)
 
 - [1084. Sales Analysis III](/SQL%20Practice/1084.%20Sales%20Analysis%20III.sql)
 
