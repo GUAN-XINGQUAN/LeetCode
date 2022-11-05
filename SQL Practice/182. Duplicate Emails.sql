@@ -13,7 +13,8 @@ SELECT email AS Email
 FROM
 (
     SELECT email, COUNT(email) AS email_count
-    FROM Person GROUP BY email
+    FROM Person 
+    GROUP BY email
 ) AS EmailCount
 WHERE email_count>1
 

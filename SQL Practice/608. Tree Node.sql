@@ -1,6 +1,8 @@
 /*
-SQL syntax:
-
+algorithm:
+    if p_id is null, this node is the root node.
+    if id does not show up i nthe p_id, this node is the leaf.
+    all the rest nodes are inner nodes.
 */
 
 SELECT id, 

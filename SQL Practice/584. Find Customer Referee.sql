@@ -3,6 +3,6 @@ SQL syntax:
     IS NULL: evaluate whether a field is null value
 */
 
-select name
-from Customer
-where referee_id<>2 or referee_id is NULL
+SELECT NAME
+FROM Customer
+WHERE referee_id<>2 OR referee_id IS NULL
