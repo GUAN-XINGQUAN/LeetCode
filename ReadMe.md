@@ -2,9 +2,60 @@
 
 # Table of Contents
 
+- [Binary Search](#binary_search)
 - [SQL Relevance](#sql)
 
-## <a id="sql">SQL Relevance</a>
+## <a name='binary_search'>Binary Search</a>
+
+**Generic Notes**
+
+The template for *binary search*:
+
+```cpp
+// Fill the spot marked with ...
+int binarySearch(int[] nums, int target) {
+    int left = 0, right = ...;  // initial condition
+
+    while(...) {  // termination condition
+        int mid = left + (right - left) / 2;
+        if (nums[mid] == target) {
+            ...  // proceed condition
+        } else if (nums[mid] < target) {
+            left = ...  // proceed condition
+        } else if (nums[mid] > target) {
+            right = ...  // proceed condition
+        }
+    }
+    return ...; // return variable
+}
+```
+
+| Scenario | Initial Condition | Termination Condition | Proceed Condition                            | Return Variable | Example Problems | Scenario                               |
+|:--------:|:-----------------:|:---------------------:|:--------------------------------------------:|:---------------:|:----------------:|:--------------------------------------:|
+| 1        | [0, len-1]        | left<=right           | return mid;<br/>left=mid+1;<br/>right=mid-1; | return -1       | 704              | Find a single number in a sorted array |
+|          |                   |                       |                                              |                 |                  |                                        |
+
+**Problems:**
+
+- [35. Search Insert Position](/Binary%20Search/35.%20Search%20Insert%20Position.cpp)
+
+- [69. Sqrt(x)](/Binary%20Search/69.%20Sqrt(x).cpp)
+
+- [367. Valid Perfect Square](/Binary%20Search/367.%20Valid%20Perfect%20Square.cpp)
+
+- [374. Guess Number Higher or Lower](/Binary%20Search/374.%20Guess%20Number%20Higher%20or%20Lower.cpp)
+
+- [704. Binary Search](/Binary%20Search/704%20Binary%20Search.cpp)
+
+- [744. Find Smallest Letter Greater Than Target](/Binary%20Search/744.%20Find%20Smallest%20Letter%20Greater%20Than%20Target.cpp)
+
+- [852. Peak Index in a Mountain Array](/Binary%20Search/852.%20Peak%20Index%20in%20a%20Mountain%20Array.cpp)
+
+- [1385. Find the Distance Value Between Two Arrays](/Binary%20Search/1385.%20Find%20the%20Distance%20Value%20Between%20Two%20Arrays.cpp)
+
+## <a name='sql'>SQL Relevance</a>
+
+**Generic Notes**:
 
 Order of Statements When Writing a Query:
 
@@ -13,6 +64,8 @@ Order of Statements When Writing a Query:
 Order of Execution:
 
 <FROM> <ON> <JOIN> <WHERE> <GROUP BY> <HAVING> <SELECT> <DISTINCT> <ORDER BY>
+
+**Problems:****
 
 - [175. Combine Two Tables](/SQL%20Practice/175.%20Combine%20Two%20Tables.sql)
 
