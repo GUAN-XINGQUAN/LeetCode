@@ -30,10 +30,12 @@ int binarySearch(int[] nums, int target) {
 }
 ```
 
-| Scenario | Initial Condition | Termination Condition | Proceed Condition                            | Return Variable | Example Problems | Scenario                               |
-|:--------:|:-----------------:|:---------------------:|:--------------------------------------------:|:---------------:|:----------------:|:--------------------------------------:|
-| 1        | [0, len-1]        | left<=right           | return mid;<br/>left=mid+1;<br/>right=mid-1; | return -1       | 704              | Find a single number in a sorted array |
-|          |                   |                       |                                              |                 |                  |                                        |
+| Scenario Label | Initial Condition | Termination Condition | Proceed Condition                                    | Return Variable | Example Problems | Scenario                                   |
+|:--------------:|:-----------------:|:---------------------:|:----------------------------------------------------:|:---------------:|:----------------:|:------------------------------------------:|
+| 1              | [0, len-1]        | left<=right           | return mid;<br/>left=mid+1;<br/>right=mid-1;         | -1              | 704              | Find a single number in a sorted array     |
+| 2              | [0, len)          | left < right          | right=mid;<br/>left = mid + 1;<br/>right = mid       | left            |                  | Find the 1st occurence of a certain number |
+| 3              | [0, len)          | left < right          | left = mid + 1;<br/>left = mid + 1;<br/>right = mid; | left - 1        |                  |                                            |
+| 4              | [0, len]          | left < right          | pass;<br/>left = mid + 1;<br/>right = mid            | right           | 852              | Find the peak in a mountain array          |
 
 **Problems:**
 
