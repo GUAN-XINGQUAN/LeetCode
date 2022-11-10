@@ -55,6 +55,10 @@ int binarySearch(int[] nums, int target) {
 
 - [1385. Find the Distance Value Between Two Arrays](/Binary%20Search/1385.%20Find%20the%20Distance%20Value%20Between%20Two%20Arrays.cpp)
 
+- [1608. Special Array With X Elements Greater Than or Equal X](/Binary%20Search/1608.%20Special%20Array%20With%20X%20Elements%20Greater%20Than%20or%20Equal%20X.cpp)
+
+- [1855. Maximum Distance Between a Pair of Values](/Binary%20Search/1855.%20Maximum%20Distance%20Between%20a%20Pair%20of%20Values.cpp)
+
 ## <a name='sql'>SQL Relevance</a>
 
 **Generic Notes**:
