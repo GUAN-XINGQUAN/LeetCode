@@ -59,6 +59,8 @@ int binarySearch(int[] nums, int target) {
 
 - [1855. Maximum Distance Between a Pair of Values](/Binary%20Search/1855.%20Maximum%20Distance%20Between%20a%20Pair%20of%20Values.cpp)
 
+- [1539. Kth Missing Positive Number](/Binary%20Search/1539.%20Kth%20Missing%20Positive%20Number.cpp)
+
 ## <a name='sql'>SQL Relevance</a>
 
 **Generic Notes**:
