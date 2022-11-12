@@ -41,6 +41,8 @@ public:
 // binary search
 // if arr[mid] - [mid] - 1 < k --> search right half
 // else --> search left half
+// time O(n)
+// space O(1)
 class Solution {
 public:
     int findKthPositive(vector<int>& arr, int k) {
