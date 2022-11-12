@@ -49,8 +49,6 @@ int binarySearch(int[] nums, int target) {
 
 - [704. Binary Search](/Binary%20Search/704%20Binary%20Search.cpp)
 
-- [744. Find Smallest Letter Greater Than Target](/Binary%20Search/744.%20Find%20Smallest%20Letter%20Greater%20Than%20Target.cpp)
-
 - [852. Peak Index in a Mountain Array](/Binary%20Search/852.%20Peak%20Index%20in%20a%20Mountain%20Array.cpp)
 
 - [1346. Check If N and Its Double Exist](/Binary%20Search/1346.%20Check%20If%20N%20and%20Its%20Double%20Exist.cpp)
@@ -59,11 +57,11 @@ int binarySearch(int[] nums, int target) {
 
 - [1385. Find the Distance Value Between Two Arrays](/Binary%20Search/1385.%20Find%20the%20Distance%20Value%20Between%20Two%20Arrays.cpp)
 
+- [1539. Kth Missing Positive Number](/Binary%20Search/1539.%20Kth%20Missing%20Positive%20Number.cpp)
+
 - [1608. Special Array With X Elements Greater Than or Equal X](/Binary%20Search/1608.%20Special%20Array%20With%20X%20Elements%20Greater%20Than%20or%20Equal%20X.cpp)
 
 - [1855. Maximum Distance Between a Pair of Values](/Binary%20Search/1855.%20Maximum%20Distance%20Between%20a%20Pair%20of%20Values.cpp)
-
-- [1539. Kth Missing Positive Number](/Binary%20Search/1539.%20Kth%20Missing%20Positive%20Number.cpp)
 
 ## <a name='sql'>SQL Relevance</a>
 
