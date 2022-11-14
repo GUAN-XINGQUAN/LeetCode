@@ -73,11 +73,11 @@ int binarySearch(int[] nums, int target) {
 
 Order of Statements When Writing a Query:
 
-<SELECT>  <FROM>  <JOINs> <WHERE> <GROUP BY> <HAVING> <ORDER BY> <LIMIT> <OFFSET>
+\<SELECT\>  \<FROM\>  \<JOINs\> \<WHERE\> \<GROUP BY\> \<HAVING\> \<ORDER BY\> \<LIMIT\> \<OFFSET\>
 
 Order of Execution:
 
-<FROM> <ON> <JOIN> <WHERE> <GROUP BY> <HAVING> <SELECT> <DISTINCT> <ORDER BY>
+\<FROM\> \<ON\> \<JOIN\> \<WHERE\> \<GROUP BY\> \<HAVING\> \<SELECT\> \<DISTINCT\> \<ORDER BY\>
 
 **Problems:**
 
