@@ -30,12 +30,12 @@ int binarySearch(int[] nums, int target) {
 }
 ```
 
-| Scenario Label | Initial Condition | Termination Condition | Proceed Condition                                    | Return Variable | Example Problems | Scenario                                   |
-|:--------------:|:-----------------:|:---------------------:|:----------------------------------------------------:|:---------------:|:----------------:|:------------------------------------------:|
-| 1              | [0, len-1]        | left<=right           | return mid;<br/>left=mid+1;<br/>right=mid-1;         | -1              | 704              | Find a single number in a sorted array     |
-| 2              | [0, len)          | left < right          | right=mid;<br/>left = mid + 1;<br/>right = mid       | left            |                  | Find the 1st occurence of a certain number |
-| 3              | [0, len)          | left < right          | left = mid + 1;<br/>left = mid + 1;<br/>right = mid; | left - 1        |                  |                                            |
-| 4              | [0, len]          | left < right          | pass;<br/>left = mid + 1;<br/>right = mid            | right           | 852              | Find the peak in a mountain array          |
+| Scenario Label | Initial Condition | Termination Condition | Proceed Condition                                    | Return Variable | Example Problems | Scenario                                    |
+|:--------------:|:-----------------:|:---------------------:|:----------------------------------------------------:|:---------------:|:----------------:|:-------------------------------------------:|
+| 1              | [0, len-1]        | left<=right           | return mid;<br/>left=mid+1;<br/>right=mid-1;         | -1              | 704              | Find a single number in a sorted array      |
+| 2              | [0, len)          | left < right          | right=mid;<br/>left = mid + 1;<br/>right = mid       | left            |                  | Find the 1st occurence of a certain number  |
+| 3              | [0, len)          | left < right          | left = mid + 1;<br/>left = mid + 1;<br/>right = mid; | left - 1        |                  | Find the last occurence of a certain number |
+| 4              | [0, len]          | left < right          | pass;<br/>left = mid + 1;<br/>right = mid            | right           | 852              | Find the peak in a mountain array           |
 
 **Problems:**
 
@@ -49,7 +49,11 @@ int binarySearch(int[] nums, int target) {
 
 - [704. Binary Search](/Binary%20Search/704%20Binary%20Search.cpp)
 
+- [744. Find Smallest Letter Greater Than Target](/Binary%20Search/744.%20Find%20Smallest%20Letter%20Greater%20Than%20Target.cpp)
+
 - [852. Peak Index in a Mountain Array](/Binary%20Search/852.%20Peak%20Index%20in%20a%20Mountain%20Array.cpp)
+
+- [1337. The K Weakest Rows in a Matrix](/Binary%20Search/1337.%20The%20K%20Weakest%20Rows%20in%20a%20Matrix.cpp)
 
 - [1346. Check If N and Its Double Exist](/Binary%20Search/1346.%20Check%20If%20N%20and%20Its%20Double%20Exist.cpp)
 
@@ -75,7 +79,7 @@ Order of Execution:
 
 <FROM> <ON> <JOIN> <WHERE> <GROUP BY> <HAVING> <SELECT> <DISTINCT> <ORDER BY>
 
-**Problems:****
+**Problems:**
 
 - [175. Combine Two Tables](/SQL%20Practice/175.%20Combine%20Two%20Tables.sql)
 
