@@ -45,9 +45,15 @@ int binarySearch(int[] nums, int target) {
 
 - [69. Sqrt(x)](/Binary%20Search/69.%20Sqrt(x).cpp)
 
+- [350. Intersection of Two Arrays II](/Binary%20Search/350.%20Intersection%20of%20Two%20Arrays%20II.cpp)
+
 - [367. Valid Perfect Square](/Binary%20Search/367.%20Valid%20Perfect%20Square.cpp)
 
 - [374. Guess Number Higher or Lower](/Binary%20Search/374.%20Guess%20Number%20Higher%20or%20Lower.cpp)
+
+- [441. Arranging Coins](/Binary%20Search/441.%20Arranging%20Coins.cpp)
+
+- [633. Sum of Square Numbers](/Binary%20Search/633.%20Sum%20of%20Square%20Numbers.cpp)
 
 - [704. Binary Search](/Binary%20Search/704%20Binary%20Search.cpp)
 
