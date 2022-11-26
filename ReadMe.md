@@ -39,11 +39,21 @@ int binarySearch(int[] nums, int target) {
 
 **Problems:**
 
+- [33. Search in Rotated Sorted Array](/Binary%20Search/33.%20Search%20in%20Rotated%20Sorted%20Array.cpp)
+
 - [34. Find First and Last Position of Element in Sorted Array.cpp](/Binary%20Search/34.%20Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array.cpp)
 
 - [35. Search Insert Position](/Binary%20Search/35.%20Search%20Insert%20Position.cpp)
 
 - [69. Sqrt(x)](/Binary%20Search/69.%20Sqrt(x).cpp)
+
+- [74. Search a 2D Matrix](/Binary%20Search/74.%20Search%20a%202D%20Matrix.cpp)
+
+- [153. Find Minimum in Rotated Sorted Array](/Binary%20Search/153.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array.cpp)
+
+- [167. Two Sum II - Input Array Is Sorted](/Binary%20Search/167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted.cpp)
+
+- [278. First Bad Version](/Binary%20Search/278.%20First%20Bad%20Version.cpp)
 
 - [350. Intersection of Two Arrays II](/Binary%20Search/350.%20Intersection%20of%20Two%20Arrays%20II.cpp)
 
