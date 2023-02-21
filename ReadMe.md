@@ -36,7 +36,9 @@
 **Problems:**
 
 - [21. Merge Two Sorted Lists](/LinkedList/21.%20Merge%20Two%20Sorted%20Lists.cpp)
+- [83. Remove Duplicates from Sorted List](/LinkedList/83.%20Remove%20Duplicates%20from%20Sorted%20List.cpp)
 - [141. Linked List Cycle](/LinkedList/141.%20Linked%20List%20Cycle.cpp)
+- [203. Remove Linked List Elements](/LinkedList/203.%20Remove%20Linked%20List%20Elements.cpp)
 
 
 ## <a name='binary_search'>Binary Search</a>
