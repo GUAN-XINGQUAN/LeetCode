@@ -2,8 +2,42 @@
 
 # Table of Contents
 
+- [Array](#array)
+- [Hash Table](#hash_table)
+- [Linked List](#linked_list)
 - [Binary Search](#binary_search)
 - [SQL Relevance](#sql)
+
+## <a name='array'>Array</a>
+
+**Problems:**
+
+- [1. Two Sum](/Array/1.%20Two%20Sum.cpp)
+- [53. Maximum Subarray](/Array/53.%20Maximum%20Subarray.cpp)
+- [88. Merge Sorted Array](/Array/88.%20Merge%20Sorted%20Array.cpp)
+- [121. Best Time to Buy and Sell Stock](/Array/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock.cpp)
+- [118. Pascal's Triangle](/Array/118.%20Pascal's%20Triangle.cpp)
+- [217. Contains Duplicate](/Array/217.%20Contains%20Duplicate.cpp)
+- [566. Reshape the Matrix](/Array/566.%20Reshape%20the%20Matrix.cpp)
+- [724. Find Pivot Index](/Array/724.%20Find%20Pivot%20Index.cpp)
+- [1480. Running Sum of 1d Array](/Array/1480.%20Running%20Sum%20of%201d%20Array.cpp)
+
+
+## <a name='hash_table'>Hash Table</a>
+
+**Problems:** 
+
+- [242. Valid Anagram](/HashTable/242.%20Valid%20Anagram.cpp)
+- [383. Ransom Note](/HashTable/383.%20Ransom%20Note.cpp)
+- [387. First Unique Character in a String](/HashTable/387.%20First%20Unique%20Character%20in%20a%20String.cpp)
+
+## <a name='linked_list'>Linked List</a>
+
+**Problems:**
+
+- [21. Merge Two Sorted Lists](/LinkedList/21.%20Merge%20Two%20Sorted%20Lists.cpp)
+- [141. Linked List Cycle](/LinkedList/141.%20Linked%20List%20Cycle.cpp)
+
 
 ## <a name='binary_search'>Binary Search</a>
 
@@ -64,6 +98,8 @@ int binarySearch(int[] nums, int target) {
 - [374. Guess Number Higher or Lower](/Binary%20Search/374.%20Guess%20Number%20Higher%20or%20Lower.cpp)
 
 - [441. Arranging Coins](/Binary%20Search/441.%20Arranging%20Coins.cpp)
+
+- [611. Valid Triangle Number](/Binary%20Search/611.%20Valid%20Triangle%20Number.cpp)
 
 - [633. Sum of Square Numbers](/Binary%20Search/633.%20Sum%20of%20Square%20Numbers.cpp)
 
