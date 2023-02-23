@@ -2,13 +2,15 @@
 
 # Table of Contents
 
-- [Array](#array)
+- [Array](#Array)
+- [String](#string)
 - [Hash Table](#hash_table)
 - [Linked List](#linked_list)
 - [Binary Search](#binary_search)
+- [Dynamic Programming](#dynamic_programming)
 - [SQL Relevance](#sql)
 
-## <a name='array'>Array</a>
+## Array
 
 **Problems:**
 
@@ -22,6 +24,11 @@
 - [724. Find Pivot Index](/Array/724.%20Find%20Pivot%20Index.cpp)
 - [1480. Running Sum of 1d Array](/Array/1480.%20Running%20Sum%20of%201d%20Array.cpp)
 
+## <a name='hash_table'>Hash Table</a>
+
+**Problems:** 
+
+- [205. Isomorphic Strings](/String/205.%20Isomorphic%20Strings.cpp)
 
 ## <a name='hash_table'>Hash Table</a>
 
@@ -40,6 +47,11 @@
 - [141. Linked List Cycle](/Linked%20List/141.%20Linked%20List%20Cycle.cpp)
 - [203. Remove Linked List Elements](/Linked%20List/203.%20Remove%20Linked%20List%20Elements.cpp)
 
+
+## <a name='sql'>SQL Relevance</a>
+**Problems:**
+
+- [392. Is Subsequence](/Dynamic%20Programming/392.%20Is%20Subsequence.cpp)
 
 ## <a name='binary_search'>Binary Search</a>
 
