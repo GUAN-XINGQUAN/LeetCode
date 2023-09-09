@@ -2,15 +2,16 @@
 
 # Table of Contents
 
-- [Array](#Array)
+- [Array](#array)
 - [String](#string)
 - [Hash Table](#hash_table)
 - [Linked List](#linked_list)
 - [Binary Search](#binary_search)
 - [Dynamic Programming](#dynamic_programming)
 - [SQL Relevance](#sql)
+- [C++ Cheatsheet](#cpp_cheatsheet)
 
-## Array
+## <a name='array'>Array</a>
 
 **Problems:**
 
@@ -29,6 +30,7 @@
 **Problems:** 
 
 - [205. Isomorphic Strings](/String/205.%20Isomorphic%20Strings.cpp)
+- [299. Bulls and Cows](/Hash%20Table/299.%20Bulls%20and%20Cows.cpp)
 
 ## <a name='hash_table'>Hash Table</a>
 
@@ -216,3 +218,12 @@ Order of Execution:
 - [1890. The Latest Login in 2020](/SQL%20Practice/1890.%20The%20Latest%20Login%20in%202020.sql)
 
 - [1965. Employees With Missing Information](/SQL%20Practice/1965.%20Employees%20With%20Missing%20Information.sql)
+
+## <a name='cpp_cheatsheet'>C++ Cheatsheet</a>
+- [STL string](/Cpp%20Cheatsheet/string.cpp)
+
+- [STL unordered_map](/Cpp%20Cheatsheet/unordered_map.cpp)
+
+- [STL unordered_set](/Cpp%20Cheatsheet/unordered_set.cpp)
+
+- [STL vector](/Cpp%20Cheatsheet/vector.cpp)
