@@ -9,6 +9,7 @@
 - [Binary Search](#binary_search)
 - [Dynamic Programming](#dynamic_programming)
 - [SQL Relevance](#sql)
+- [Sweep Line](#sweep_line)
 - [C++ Cheatsheet](#cpp_cheatsheet)
 
 ## <a name='array'>Array</a>
@@ -218,6 +219,15 @@ Order of Execution:
 - [1890. The Latest Login in 2020](/SQL%20Practice/1890.%20The%20Latest%20Login%20in%202020.sql)
 
 - [1965. Employees With Missing Information](/SQL%20Practice/1965.%20Employees%20With%20Missing%20Information.sql)
+
+## <a name='sweep_line'>Sweep Line</a>
+- [56. Merge Intervals](/Sweep%20Line/56.%20Merge%20Intervals.cpp)
+
+- [57. Insert Interval](/Sweep%20Line/57.%20Insert%20Interval.cpp)
+
+- [252. Meeting Rooms](/Sweep%20Line/252.%20Meeting%20Rooms.cpp)
+
+- [253. Meeting Rooms II](/Sweep%20Line/253.%20Meeting%20Rooms%20II.cpp)
 
 ## <a name='cpp_cheatsheet'>C++ Cheatsheet</a>
 - [STL string](/Cpp%20Cheatsheet/string.cpp)
