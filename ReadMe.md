@@ -229,6 +229,10 @@ Order of Execution:
 
 - [253. Meeting Rooms II](/Sweep%20Line/253.%20Meeting%20Rooms%20II.cpp)
 
+- [435. Non-overlapping Intervals](/Sweep%20Line/435.%20Non-overlapping%20Intervals.cpp)
+
+- [1272. Remove Interval](/Sweep%20Line/1272.%20Remove%20Interval.cpp)
+
 ## <a name='cpp_cheatsheet'>C++ Cheatsheet</a>
 - [STL string](/Cpp%20Cheatsheet/string.cpp)
 
