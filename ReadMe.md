@@ -233,6 +233,8 @@ Order of Execution:
 
 - [1272. Remove Interval](/Sweep%20Line/1272.%20Remove%20Interval.cpp)
 
+- [1288. Remove Covered Intervals](/Sweep%20Line/1288.%20Remove%20Covered%20Intervals.cpp)
+
 ## <a name='cpp_cheatsheet'>C++ Cheatsheet</a>
 - [STL string](/Cpp%20Cheatsheet/string.cpp)
 
@@ -241,3 +243,5 @@ Order of Execution:
 - [STL unordered_set](/Cpp%20Cheatsheet/unordered_set.cpp)
 
 - [STL vector](/Cpp%20Cheatsheet/vector.cpp)
+
+- [STL algorithm](/Cpp%20Cheatsheet/algorithm.cpp)
