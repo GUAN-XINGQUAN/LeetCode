@@ -229,7 +229,13 @@ Order of Execution:
 
 - [253. Meeting Rooms II](/Sweep%20Line/253.%20Meeting%20Rooms%20II.cpp)
 
+- [352. Data Stream as Disjoint Intervals](/Sweep%20Line/352.%20Data%20Stream%20as%20Disjoint%20Intervals.cpp)
+
 - [435. Non-overlapping Intervals](/Sweep%20Line/435.%20Non-overlapping%20Intervals.cpp)
+
+- [986. Interval List Intersections](/Sweep%20Line/986.%20Interval%20List%20Intersections.cpp)
+
+- [1229. Meeting Scheduler](/Sweep%20Line/1229.%20Meeting%20Scheduler.cpp)
 
 - [1272. Remove Interval](/Sweep%20Line/1272.%20Remove%20Interval.cpp)
 
@@ -245,3 +251,5 @@ Order of Execution:
 - [STL vector](/Cpp%20Cheatsheet/vector.cpp)
 
 - [STL algorithm](/Cpp%20Cheatsheet/algorithm.cpp)
+
+- [STL priority_queue](/Cpp%20Cheatsheet/priority_queue.cpp)
