@@ -251,6 +251,14 @@ Order of Execution:
 
 - [111. Minimum Depth of Binary Tree](/Breadth%20First%20Search/111.%20Minimum%20Depth%20of%20Binary%20Tree.cpp)
 
+- [127. Word Ladder](/Breadth%20First%20Search/127.%20Word%20Ladder.cpp)
+
+- [207. Course Schedule](/Breadth%20First%20Search/207.%20Course%20Schedule.cpp)
+
+- [490. The Maze](/Breadth%20First%20Search/490.%20The%20Maze.cpp)
+
+- [505. The Maze II](/Breadth%20First%20Search/505.%20The%20Maze%20II.cpp)
+
 
 # <a name='cpp_cheatsheet'>C++ Cheatsheet</a>
 - [STL string](/Cpp%20Cheatsheet/string.cpp)
@@ -266,3 +274,5 @@ Order of Execution:
 - [STL priority_queue](/Cpp%20Cheatsheet/priority_queue.cpp)
 
 - [STL queue](/Cpp%20Cheatsheet/queue.cpp)
+
+- [Dijkstra algorithm](/Cpp%20Cheatsheet/dijkstra_algorithm.cpp)
