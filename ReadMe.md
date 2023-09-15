@@ -12,7 +12,7 @@
 - [Sweep Line](#sweep_line)
 - [C++ Cheatsheet](#cpp_cheatsheet)
 
-## <a name='array'>Array</a>
+# <a name='array'>Array</a>
 
 **Problems:**
 
@@ -26,14 +26,14 @@
 - [724. Find Pivot Index](/Array/724.%20Find%20Pivot%20Index.cpp)
 - [1480. Running Sum of 1d Array](/Array/1480.%20Running%20Sum%20of%201d%20Array.cpp)
 
-## <a name='hash_table'>Hash Table</a>
+# <a name='hash_table'>Hash Table</a>
 
 **Problems:** 
 
 - [205. Isomorphic Strings](/String/205.%20Isomorphic%20Strings.cpp)
 - [299. Bulls and Cows](/Hash%20Table/299.%20Bulls%20and%20Cows.cpp)
 
-## <a name='hash_table'>Hash Table</a>
+# <a name='hash_table'>Hash Table</a>
 
 **Problems:** 
 
@@ -41,7 +41,7 @@
 - [383. Ransom Note](/Hash%20Table/383.%20Ransom%20Note.cpp)
 - [387. First Unique Character in a String](/Hash%20Table/387.%20First%20Unique%20Character%20in%20a%20String.cpp)
 
-## <a name='linked_list'>Linked List</a>
+# <a name='linked_list'>Linked List</a>
 
 **Problems:**
 
@@ -50,13 +50,7 @@
 - [141. Linked List Cycle](/Linked%20List/141.%20Linked%20List%20Cycle.cpp)
 - [203. Remove Linked List Elements](/Linked%20List/203.%20Remove%20Linked%20List%20Elements.cpp)
 
-
-## <a name='sql'>SQL Relevance</a>
-**Problems:**
-
-- [392. Is Subsequence](/Dynamic%20Programming/392.%20Is%20Subsequence.cpp)
-
-## <a name='binary_search'>Binary Search</a>
+# <a name='binary_search'>Binary Search</a>
 
 **Generic Notes**
 
@@ -140,7 +134,7 @@ int binarySearch(int[] nums, int target) {
 
 - [1855. Maximum Distance Between a Pair of Values](/Binary%20Search/1855.%20Maximum%20Distance%20Between%20a%20Pair%20of%20Values.cpp)
 
-## <a name='sql'>SQL Relevance</a>
+# <a name='sql'>SQL Relevance</a>
 
 **Generic Notes**:
 
@@ -165,6 +159,8 @@ Order of Execution:
 - [196. Delete Duplicate Emails](/SQL%20Practice/196.%20Delete%20Duplicate%20Emails.sql)
 
 - [197. Rising Temperature](/SQL%20Practice/197.%20Rising%20Temperature.sql)
+
+- [392. Is Subsequence](/Dynamic%20Programming/392.%20Is%20Subsequence.cpp)
 
 - [511. Game Play Analysis I](/SQL%20Practice/511.%20Game%20Play%20Analysis%20I.sql)
 
@@ -220,10 +216,12 @@ Order of Execution:
 
 - [1965. Employees With Missing Information](/SQL%20Practice/1965.%20Employees%20With%20Missing%20Information.sql)
 
-## <a name='sweep_line'>Sweep Line</a>
+# <a name='sweep_line'>Sweep Line</a>
 - [56. Merge Intervals](/Sweep%20Line/56.%20Merge%20Intervals.cpp)
 
 - [57. Insert Interval](/Sweep%20Line/57.%20Insert%20Interval.cpp)
+
+- [218. The Skyline Problem](/Sweep%20Line/218.%20The%20Skyline%20Problem.cpp)
 
 - [252. Meeting Rooms](/Sweep%20Line/252.%20Meeting%20Rooms.cpp)
 
@@ -233,6 +231,8 @@ Order of Execution:
 
 - [435. Non-overlapping Intervals](/Sweep%20Line/435.%20Non-overlapping%20Intervals.cpp)
 
+- [759. Employee Free Time](/Sweep%20Line/759.%20Employee%20Free%20Time.cpp)
+
 - [986. Interval List Intersections](/Sweep%20Line/986.%20Interval%20List%20Intersections.cpp)
 
 - [1229. Meeting Scheduler](/Sweep%20Line/1229.%20Meeting%20Scheduler.cpp)
@@ -241,7 +241,18 @@ Order of Execution:
 
 - [1288. Remove Covered Intervals](/Sweep%20Line/1288.%20Remove%20Covered%20Intervals.cpp)
 
-## <a name='cpp_cheatsheet'>C++ Cheatsheet</a>
+# <a name='Breadth First Search'>Breadth First Search</a>
+
+- [102. Binary Tree Level Order Traversal](/Breadth%20First%20Search/102.%20Binary%20Tree%20Level%20Order%20Traversal.cpp)
+
+- [103. Binary Tree Zigzag Level Order Traversal](/Breadth%20First%20Search/103.%20Binary%20Tree%20Zigzag%20Level%20Order%20Traversal.cpp)
+
+- [104. Maximum Depth of Binary Tree](/Breadth%20First%20Search/104.%20Maximum%20Depth%20of%20Binary%20Tree.cpp)
+
+- [111. Minimum Depth of Binary Tree](/Breadth%20First%20Search/111.%20Minimum%20Depth%20of%20Binary%20Tree.cpp)
+
+
+# <a name='cpp_cheatsheet'>C++ Cheatsheet</a>
 - [STL string](/Cpp%20Cheatsheet/string.cpp)
 
 - [STL unordered_map](/Cpp%20Cheatsheet/unordered_map.cpp)
@@ -253,3 +264,5 @@ Order of Execution:
 - [STL algorithm](/Cpp%20Cheatsheet/algorithm.cpp)
 
 - [STL priority_queue](/Cpp%20Cheatsheet/priority_queue.cpp)
+
+- [STL queue](/Cpp%20Cheatsheet/queue.cpp)
