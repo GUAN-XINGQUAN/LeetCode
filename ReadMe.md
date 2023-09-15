@@ -10,6 +10,7 @@
 - [Dynamic Programming](#dynamic_programming)
 - [SQL Relevance](#sql)
 - [Sweep Line](#sweep_line)
+- [Breadth First Search](#breadth-first-search)
 - [C++ Cheatsheet](#cpp_cheatsheet)
 
 # <a name='array'>Array</a>
