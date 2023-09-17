@@ -10,7 +10,8 @@
 - [Dynamic Programming](#dynamic_programming)
 - [SQL Relevance](#sql)
 - [Sweep Line](#sweep_line)
-- [Breadth First Search](#breadth-first-search)
+- [Breadth First Search](#breadth_first_search)
+- [Depth First Search](#depth_first_search)
 - [C++ Cheatsheet](#cpp_cheatsheet)
 
 # <a name='array'>Array</a>
@@ -262,6 +263,13 @@ Order of Execution:
 
 - [505. The Maze II](/Breadth%20First%20Search/505.%20The%20Maze%20II.cpp)
 
+# <a name='depth_first_search'>Depth First Search</a>
+
+- [78. Subsets](/Depth%20First%20Search/78.%20Subsets.cpp)
+
+- [90. Subsets II](/Depth%20First%20Search/90.%20Subsets%20II.cpp)
+
+- [94. Binary Tree Inorder Traversal](/Depth%20First%20Search/94.%20Binary%20Tree%20Inorder%20Traversal.cpp)
 
 # <a name='cpp_cheatsheet'>C++ Cheatsheet</a>
 - [STL string](/Cpp%20Cheatsheet/string.cpp)
