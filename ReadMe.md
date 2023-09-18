@@ -265,6 +265,10 @@ Order of Execution:
 
 # <a name='depth_first_search'>Depth First Search</a>
 
+- [46. Permutations](/Depth%20First%20Search/46.%20Permutations.cpp)
+
+- [47. Permutations II](/Depth%20First%20Search/47.%20Permutations%20II.cpp)
+
 - [78. Subsets](/Depth%20First%20Search/78.%20Subsets.cpp)
 
 - [90. Subsets II](/Depth%20First%20Search/90.%20Subsets%20II.cpp)
@@ -272,6 +276,7 @@ Order of Execution:
 - [94. Binary Tree Inorder Traversal](/Depth%20First%20Search/94.%20Binary%20Tree%20Inorder%20Traversal.cpp)
 
 # <a name='cpp_cheatsheet'>C++ Cheatsheet</a>
+
 - [STL string](/Cpp%20Cheatsheet/string.cpp)
 
 - [STL unordered_map](/Cpp%20Cheatsheet/unordered_map.cpp)
