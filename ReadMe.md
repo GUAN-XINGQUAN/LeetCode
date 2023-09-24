@@ -265,9 +265,13 @@ Order of Execution:
 
 # <a name='depth_first_search'>Depth First Search</a>
 
+- [37. Sudoku Solver](/Depth%20First%20Search/37.%20Sudoku%20Solver.cpp)
+
 - [46. Permutations](/Depth%20First%20Search/46.%20Permutations.cpp)
 
 - [47. Permutations II](/Depth%20First%20Search/47.%20Permutations%20II.cpp)
+
+- [51. N-Queens](/Depth%20First%20Search/51.%20N-Queens.cpp)
 
 - [78. Subsets](/Depth%20First%20Search/78.%20Subsets.cpp)
 
