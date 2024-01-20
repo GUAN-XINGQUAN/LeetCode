@@ -14,6 +14,7 @@
 - [SQL Relevance](#sql)
 - [Sweep Line](#sweep_line)
 - [Two Pointers](#two_pointers)
+- [Python Solutions](#python_solutions)
 
 # <a name='array'>Array</a>
 
@@ -199,6 +200,9 @@ Order of Execution:
 
 - [905. Sort Array By Parity](/Two%20Pointers/905.%20Sort%20Array%20By%20Parity.cpp)
 
+# <a name='divide_and_conquer'>Divide Conquer</a>
+- [111. Minimum Depth of Binary Tree](/Divide%20and%20Conquer/)
+
 # <a name='cpp_cheatsheet'>C++ Cheatsheet</a>
 
 - [STL string](/Cpp%20Cheatsheet/string.cpp)
@@ -209,3 +213,10 @@ Order of Execution:
 - [STL priority_queue](/Cpp%20Cheatsheet/priority_queue.cpp)
 - [STL queue](/Cpp%20Cheatsheet/queue.cpp)
 - [Dijkstra algorithm](/Cpp%20Cheatsheet/dijkstra_algorithm.cpp)
+
+# <a name='python_solutions'>Python Solutions</a>
+
+- [111. Minimum Depth of Binary Tree](/Python%20Solutions/111.%20Minimum%20Depth%20of%20Binary%20Tree.py)
+- [235. Lowest Common Ancestor of a Binary Search Tree](/Python%20Solutions/235.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree.py)
+- [236. Lowest Common Ancestor of a Binary Tree](/Python%20Solutions/236.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.py)
+- [257. Binary Tree Paths](/Python%20Solutions/257.%20Binary%20Tree%20Paths.py)
