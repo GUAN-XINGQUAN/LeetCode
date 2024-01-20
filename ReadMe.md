@@ -217,6 +217,9 @@ Order of Execution:
 # <a name='python_solutions'>Python Solutions</a>
 
 - [111. Minimum Depth of Binary Tree](/Python%20Solutions/111.%20Minimum%20Depth%20of%20Binary%20Tree.py)
+- [114. Flatten Binary Tree to Linked List](/Python%20Solutions/114.%20Flatten%20Binary%20Tree%20to%20Linked%20List.py)
+- [173. Binary Search Tree Iterator](/Python%20Solutions/173.%20Binary%20Search%20Tree%20Iterator.py)
 - [235. Lowest Common Ancestor of a Binary Search Tree](/Python%20Solutions/235.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree.py)
 - [236. Lowest Common Ancestor of a Binary Tree](/Python%20Solutions/236.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.py)
 - [257. Binary Tree Paths](/Python%20Solutions/257.%20Binary%20Tree%20Paths.py)
+- [501. Find Mode in Binary Search Tree](/Python%20Solutions/501.%20Find%20Mode%20in%20Binary%20Search%20Tree.py)
